@@ -746,6 +746,21 @@ footer span a:hover{
     color: lemonchiffon;
 }
 
-    
+.skills-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Add space between rows */
+}
+
+.skill {
+    flex: 1; /* Make all skills equal width */
+    text-align: center; /* Center the text */
+}
+ 
     
 }
